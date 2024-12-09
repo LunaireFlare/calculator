@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Pixelify Sans";
+  font-size: 22px;
+}
+
+body {
+  background-image: url("./images/pattern.jpg");
+}
+
+.calculator {
+  background: rgb(20, 20, 20);
+  color: white;
+  max-width: 20%;
+  padding: 20px;
+  margin: 60px auto;
+  border-radius: 5px;
+  box-shadow: 4px 4px 0px darkslategrey;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator .display {
+  height: 80px;
+  width: 100%;
+  padding: 10px;
+  background: rgb(100, 182, 67);
+  box-shadow: inset 0px 0px 20px rgba(0,128,0,0.5);
+  border-radius: 3px;
+  text-shadow: 0px 0px 5px white;
+  text-align: end;
+}
+
+.calculator .currentDisplay {
+  font-size: 32px;
+}
+
+.calculator .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin: 30px 0;
+}
+
+.calculator .btn {
+  height: 70px;
+  width: 70px;
+  border: 2px solid darkslategrey;
+  border-radius: 30px;
+  box-shadow: 2px 2px 0px darkslategrey;
+  transition: all 0.15s;
+}
+
+.calculator .btn:hover {
+  box-shadow: 0px 0px 0px darkslategrey;
+  opacity: 0.85;
+  transform: scale(0.95);
+}
+
+.operator-btn {
+  background-color: green;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 60px;
+}
+
+footer a {
+  font-size: 14px;
+  color: rgb(100, 182, 67);
+  text-decoration: none;
+  transition: all 0.15s;
+}
+
+footer a:hover {
+  background-color: white;
+  padding: 0 15px;
+}
