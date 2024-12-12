@@ -49,9 +49,9 @@ body {
 }
 
 .calculator .controls {
-  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  gap: 20px;
 }
 
 .calculator .btn {
@@ -70,12 +70,18 @@ body {
 }
 
 .calculator .control-btn {
-  width: 130px;
+  width: 110px;
 }
 
 .operator-btn {
   background-color: green;
 }
+
+#equalbtn {
+  width: 150px;
+  background: rgb(69, 184, 69);
+}
+
 
 footer {
   color: white;
