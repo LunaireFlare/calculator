@@ -48,6 +48,12 @@ body {
   margin: 30px 0;
 }
 
+.calculator .controls {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
 .calculator .btn {
   height: 70px;
   width: 70px;
@@ -61,6 +67,10 @@ body {
   box-shadow: 0px 0px 0px darkslategrey;
   opacity: 0.85;
   transform: scale(0.95);
+}
+
+.calculator .control-btn {
+  width: 130px;
 }
 
 .operator-btn {

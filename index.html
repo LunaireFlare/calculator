@@ -12,15 +12,15 @@
 
     <div class="calculator">
       <div class="display">
-        <div class="previousDisplay">15 +</div>
-        <div class="currentDisplay">8</div>
+        <div class="previousDisplay"></div>
+        <div class="currentDisplay"></div>
       </div>
 
       <div class="buttons">
-        <button class="btn control-btn">AC</button>
-        <button class="btn control-btn">Del</button>
-        <button class="btn operator-btn">&#40</button>
-        <button class="btn operator-btn">&#41</button>
+        <div class="controls">        
+          <button class="btn control-btn" id="clearbtn">AC</button>
+          <button class="btn control-btn" id="deletebtn">Del</button>
+        </div>
 
         <button class="btn digit-btn">7</button>
         <button class="btn digit-btn">8</button>
@@ -39,7 +39,7 @@
 
         <button class="btn operator-btn">,</button>
         <button class="btn digit-btn">0</button>
-        <button class="btn operator-btn">=</button>
+        <button class="btn operator-btn" id="equalbtn">=</button>
         <button class="btn operator-btn">+</button>
 
       </div>
