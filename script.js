@@ -26,8 +26,6 @@ function appendToDisplay(value) {
   currentDisplay.textContent += value;
 }
 
-clearButton.addEventListener("click", () => clearDisplay());
-
 function clearDisplay() {
   a = 0;
   b = 0;
@@ -36,6 +34,12 @@ function clearDisplay() {
   previousDisplay.textContent = "";
 }
 
+function deleteLastChar() {
+  currentDisplay.textContent = currentDisplay.textContent.slice(0, -1);
+}
+
+clearButton.addEventListener("click", () => clearDisplay());
+deleteButton.addEventListener("click", () => deleteLastChar())
 equalButton.addEventListener("click", () => operate())
 
 
