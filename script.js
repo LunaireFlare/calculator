@@ -46,16 +46,12 @@ function updateDisplay(sign, name) {
 const decimalButton = document.querySelector("#decimal");
 decimalButton.addEventListener("click", () => handleDecimal())
 function handleDecimal() {
-  if (previousOperation == "") {
-    if (!a.includes(".") && a.length >= 1) {
+  if (previousOperation == "" && !a.includes(".") && a.length >= 1) {
       a += ".";
       currentDisplay.textContent = a;
-    }
-  } else {
-    if (!b.includes (".") && b.length >= 1) {
+  } else if (!b.includes (".") && b.length >= 1) {
       b += ".";
       currentDisplay.textContent = b;
-    }
   }
 }
 
