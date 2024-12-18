@@ -37,4 +37,4 @@ The mistake of ***not*** doing that still occurred, but made it crystal clear ho
 
 ### Encountered Pitfalls
 - Not spending enough time working out the logic first led to losing quite a bit of time later on
-- Understanding the logic in the differences between the numeric variables and their string representation on the displays 
+- Understanding the differences between the numeric variables and their string representation on the displays 
